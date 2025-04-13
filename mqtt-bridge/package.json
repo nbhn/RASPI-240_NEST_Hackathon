@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-supabase-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between MQTT and Supabase for access control",
+  "main": "index.js",
+  "scripts": {
+    "start": "node rfid-bridge.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.3",
+    "@supabase/supabase-js": "^2.39.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12"
+  }
+} 
