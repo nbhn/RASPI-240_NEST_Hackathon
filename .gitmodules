@@ -1,0 +1,6 @@
+[submodule "mqtt-bridge"]
+	path = mqtt-bridge
+	url = https://github.com/nbhn/bridg.git
+[submodule "TemperatureControl"]
+	path = TemperatureControl
+	url = https://github.com/nbhn/temperature-controller.git
