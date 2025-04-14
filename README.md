@@ -62,7 +62,7 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 
 ## 🔧 Technologies Used
 
-- **Hardware**: Raspberry Pi, Arduino, RFID Readers, Temperature Sensors
+- **Hardware**: PC, Arduino, RFID Readers, Temperature Sensors
 - **Backend**: Node.js, MQTT (HiveMQ), Supabase
 - **Frontend**: React, Vite, TailwindCSS
 - **ML/AI**: TensorFlow, OpenCV, Custom ML Models
@@ -77,7 +77,7 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 ## 📚 Resources
 
 - [HiveMQ Documentation](https://www.hivemq.com/docs/)
-- [RandomNerdTutorials RFID Guide](https://randomnerdtutorials.com/security-access-using-rfid-arduino/)
+- [RandomNerdTutorials RFID Guide](https://randomnerdtutorials.com/)
 - [Supabase Documentation](https://supabase.io/docs)
 
 ## 📄 License
@@ -86,4 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Developed with ❤️ for the NEST Hackathon 2025 
+Developed with ❤️ for the NEST Hackathon 2025
