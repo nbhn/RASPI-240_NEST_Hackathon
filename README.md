@@ -38,7 +38,7 @@ AI-powered facial recognition for administrator access:
 Complete walkthrough of our web dashboard and monitoring system:
 
 [![Web Dashboard & Site Demo](https://img.youtube.com/vi/Pgzu2_fCa18/0.jpg)](https://youtu.be/Pgzu2_fCa18)
-                          raspi240.vercel.app/
+                          (https://raspi240.vercel.app/)
 ## 🧩 System Components
 
 Our solution consists of several interconnected components:
