@@ -19,9 +19,9 @@ RASPI-240 is an integrated system that provides:
 
 ## 🎥 Demo Videos
 
-- [3D System Plan](./media/3d_plan.mp4)
-- [Face Recognition Demo](./media/face_recognition.mov)
-- [Web Dashboard](./media/site_recording.mov)
+- [3D System Plan](./3d_plan.mp4)
+- [Face Recognition Demo](./face_recognition.mov)
+- [Web Dashboard](./site_recording.mov)
 
 ## 🧩 System Components
 
@@ -51,7 +51,7 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 
 ## 🔧 Technologies Used
 
-- **Hardware**: Raspberry Pi, Arduino, RFID Readers, Temperature Sensors
+- **Hardware**: PC, Arduino, RFID Readers, Temperature Sensors
 - **Backend**: Node.js, MQTT (HiveMQ), Supabase
 - **Frontend**: React, Vite, TailwindCSS
 - **ML/AI**: TensorFlow, OpenCV, Custom ML Models
@@ -66,7 +66,7 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 ## 📚 Resources
 
 - [HiveMQ Documentation](https://www.hivemq.com/docs/)
-- [RandomNerdTutorials RFID Guide](https://randomnerdtutorials.com/security-access-using-rfid-arduino/)
+- [RandomNerdTutorials RFID Guide](https://randomnerdtutorials.com/)
 - [Supabase Documentation](https://supabase.io/docs)
 
 ## 📄 License
