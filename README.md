@@ -19,9 +19,20 @@ RASPI-240 is an integrated system that provides:
 
 ## 🎥 Demo Videos
 
-- [3D System Plan](./media/3d_plan.mp4)
-- [Face Recognition Demo](./media/face_recognition.mov)
-- [Web Dashboard](./media/site_recording.mov)
+### 3D System Architecture Visualization
+Our system's physical layout and component interconnections in 3D:
+
+[![3D System Plan](https://img.youtube.com/vi/RSE16WzwnU0/0.jpg)](https://youtu.be/RSE16WzwnU0)
+
+### Facial Recognition Security System
+AI-powered facial recognition for administrator access:
+
+[![Face Recognition Demo](https://img.youtube.com/vi/oYCKodpSrzM/0.jpg)](https://youtu.be/oYCKodpSrzM)
+
+### Interactive Dashboard & Site Operations
+Complete walkthrough of our web dashboard and monitoring system:
+
+[![Web Dashboard & Site Demo](https://img.youtube.com/vi/Pgzu2_fCa18/0.jpg)](https://youtu.be/Pgzu2_fCa18)
 
 ## 🧩 System Components
 
