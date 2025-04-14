@@ -1,15 +1,15 @@
-# RASPI-240: Smart Industrial Monitoring System
-## NEST Hackathon 2025 Project
+# Smart Industrial Monitoring System
+## Team RASPI-240 - NEST Hackathon 2025 Project
 
 ![Project Banner](./media/banner.png)
 
 ## 🏆 NEST Hackathon Experience
 
-Our team had an amazing experience at the NEST Hackathon 2025, where we developed RASPI-240: a comprehensive industrial monitoring and security system. This solution combines IoT sensors, machine learning, and web technologies to create a holistic approach to industrial safety and efficiency.
+Our team RASPI-240 had an amazing experience at the NEST Hackathon 2025, where we developed a comprehensive industrial monitoring and security system. This solution combines IoT sensors, machine learning, and web technologies to create a holistic approach to industrial safety and efficiency.
 
 ## 📋 Project Overview
 
-RASPI-240 is an integrated system that provides:
+Our Smart Industrial Monitoring System provides:
 
 - **Access Control**: RFID badge-based security for restricted areas
 - **Temperature Monitoring**: Real-time temperature tracking with alerts
@@ -39,7 +39,7 @@ Complete walkthrough of our web dashboard and monitoring system:
 Our solution consists of several interconnected components:
 
 ### 1. RFID Access Control
-Arduino-based system for controlling access to restricted areas using RFID badges. [Details](./docs/rfid_access.md)
+ESP32-based system for controlling access to restricted areas using RFID badges. [Details](./docs/rfid_access.md)
 
 ### 2. Temperature Control
 Multi-sensor temperature monitoring system with alerting capabilities. [Details](./docs/temperature_control.md)
@@ -62,8 +62,7 @@ Our system utilizes the following hardware components:
 
 ### Computing & Control
 - **Development PC**: For development, testing and running the face recognition system
-- **ESP32 Dev Board**: Main microcontroller for access control system
-- **ESP8266 Dev Board**: Secondary controller for temperature monitoring
+- **ESP32 WROOM Model S**: Two units - one for access control system and one for temperature monitoring
 - **USB Cables**: For connecting and programming ESP boards
 
 ### Access Control
@@ -72,14 +71,15 @@ Our system utilizes the following hardware components:
 - **LEDs**: Status indicators for access control
 - **Servo Motor**: For physical door/lock control
 - **Ultrasonic Sensor**: For presence detection
+- **LCD 16x2 Display**: For showing access status and information
 
 ### Temperature Monitoring
 - **DHT22 Sensor**: For temperature and humidity monitoring
-- **2x LCD 16x2 Displays**: For local data visualization
+- **LCD 16x2 Display**: For displaying temperature readings
 - **2x 24V Fans**: For automated cooling system
 
 ### Networking & Connectivity
-- **ESP32/ESP8266 Wi-Fi**: Built-in wireless connectivity
+- **ESP32 Built-in Wi-Fi**: For wireless connectivity to MQTT broker
 - **Jumper Wires**: For connecting components
 - **Breadboards**: For prototyping circuits
 
@@ -94,13 +94,13 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 
 ## 🔧 Technologies Used
 
-- **Hardware**: PC, ESP32, ESP8266, RFID, Sensors
+- **Hardware**: PC, ESP32 WROOM Model S, RFID, Sensors
 - **Backend**: Node.js, MQTT (HiveMQ), Supabase
 - **Frontend**: React, Vite, TailwindCSS
 - **ML/AI**: TensorFlow, OpenCV, Custom ML Models
 - **DevOps**: GitHub Actions, Vercel
 
-## 👥 Team
+## 👥 Team RASPI-240
 
 - Nassim Benhalldja
 - Arabet Abdelhakim
@@ -120,4 +120,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Developed with ❤️ for the NEST Hackathon 2025
+Developed with ❤️ by Team RASPI-240 for the NEST Hackathon 2025
