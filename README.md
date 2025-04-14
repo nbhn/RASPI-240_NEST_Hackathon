@@ -19,6 +19,11 @@ Our Smart Industrial Monitoring System provides:
 
 ## 🎥 Demo Videos
 
+### Working Prototype MVP Demonstration
+Full demonstration of our integrated hardware and software working together:
+
+[![Prototype MVP Demo](https://img.youtube.com/vi/MVjWG7Tsixg/0.jpg)](https://youtu.be/MVjWG7Tsixg)
+
 ### 3D System Architecture Visualization
 Our system's physical layout and component interconnections in 3D:
 
