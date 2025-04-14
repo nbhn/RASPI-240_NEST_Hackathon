@@ -70,9 +70,11 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 
 ## 👥 Team
 
-- [Team Member 1] - Role
-- [Team Member 2] - Role
-- [Team Member 3] - Role
+- Nassim Benhalldja
+- Arabet Abdelhakim
+- Derar Mohanned
+- Baslimane Daoud Elhakim
+- HAMAIDI Mohamed Idris Hamadi
 
 ## 📚 Resources
 
