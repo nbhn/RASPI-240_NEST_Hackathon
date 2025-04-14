@@ -61,34 +61,32 @@ React-based web interface that provides real-time monitoring and control of all 
 Our system utilizes the following hardware components:
 
 ### Computing & Control
-- **Development PC**: Intel Core i7, 32GB RAM for development and testing
-- **Arduino Uno R3**: Main microcontroller for RFID access control
-- **Arduino Nano**: Secondary controller for remote temperature sensors
-- **USB Cables**: For connecting Arduino boards to development PC
+- **Development PC**: For development, testing and running the face recognition system
+- **ESP32 Dev Board**: Main microcontroller for access control system
+- **ESP8266 Dev Board**: Secondary controller for temperature monitoring
+- **USB Cables**: For connecting and programming ESP boards
 
 ### Access Control
-- **RFID-RC522 Module**: 13.56MHz RFID reader/writer module
-- **RFID Tags/Cards**: Mifare Classic 1K cards for user authentication
-- **LED Indicators**: Red/Green LEDs for access status indication
-- **Buzzer Module**: For audio feedback during access attempts
-- **Relay Module**: For electric door lock control
+- **RFID Reader Module**: For badge-based authentication
+- **RFID Tags/Cards**: For user identification
+- **LEDs**: Status indicators for access control
+- **Servo Motor**: For physical door/lock control
+- **Ultrasonic Sensor**: For presence detection
 
 ### Temperature Monitoring
-- **DS18B20 Temperature Sensors**: Waterproof digital temperature sensors
-- **DHT22 Sensors**: Temperature and humidity sensors for ambient monitoring
-- **MAX6675 Module**: K-type thermocouple for high-temperature monitoring
-- **LCD Display**: 16x2 I2C LCD for local temperature readings
+- **DHT22 Sensor**: For temperature and humidity monitoring
+- **2x LCD 16x2 Displays**: For local data visualization
+- **2x 24V Fans**: For automated cooling system
 
 ### Networking & Connectivity
-- **ESP8266 Wi-Fi Module**: For wireless connectivity
-- **Ethernet Shield**: For wired network connectivity
+- **ESP32/ESP8266 Wi-Fi**: Built-in wireless connectivity
 - **Jumper Wires**: For connecting components
 - **Breadboards**: For prototyping circuits
 
 ### Power & Enclosure
-- **Power Adapters**: 5V and 12V power supplies
-- **Project Box Enclosures**: For housing electronics
-- **Battery Backup**: 9V battery with voltage regulator for failsafe operation
+- **Power Adapters**: Various power supplies for components
+- **Project Enclosure**: For housing the electronics
+- **Mounting Hardware**: For securing components
 
 ## 🚀 Installation & Setup
 
@@ -96,7 +94,7 @@ Please refer to our [Installation Guide](./docs/installation.md) for detailed se
 
 ## 🔧 Technologies Used
 
-- **Hardware**: PC, Arduino, RFID Readers, Temperature Sensors
+- **Hardware**: PC, ESP32, ESP8266, RFID, Sensors
 - **Backend**: Node.js, MQTT (HiveMQ), Supabase
 - **Frontend**: React, Vite, TailwindCSS
 - **ML/AI**: TensorFlow, OpenCV, Custom ML Models
