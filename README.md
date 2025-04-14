@@ -1,7 +1,7 @@
 # Smart Industrial Monitoring System
 ## Team RASPI-240 - NEST Hackathon 2025 Project
 
-![Project Banner](./docs/GG.png))
+![Project Banner](./docs/ss.png))
 
 ## 🏆 NEST Hackathon Experience
 
