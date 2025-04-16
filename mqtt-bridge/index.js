@@ -23,11 +23,11 @@ app.listen(port, () => {
 
 // MQTT Configuration
 const mqttOptions = {
-  host: process.env.MQTT_HOST || '0b8b2b868c8d466995ff825a840cef50.s1.eu.hivemq.cloud',
+  host: process.env.MQTT_HOST || '     ',
   port: parseInt(process.env.MQTT_PORT) || 8883,
   protocol: 'mqtts',
-  username: process.env.MQTT_USERNAME || 'nestnest1',
-  password: process.env.MQTT_PASSWORD || '1234Nest'
+  username: process.env.MQTT_USERNAME || '  ',
+  password: process.env.MQTT_PASSWORD || '  '
 };
 
 // Supabase Configuration
